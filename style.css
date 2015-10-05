@@ -1,0 +1,14 @@
+
+body {
+  font-family: Times, serif;
+  color: blue;
+  background-color: white;}
+
+h1, h2 {
+  font-family: Arial, sans-serif;
+  color: green;
+  background-color: white;}
+
+h3 {
+    font-family: Oswald, sans-serif;
+}

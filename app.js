@@ -24,22 +24,28 @@ var CookieStand = function Store(place, minCustHour, maxCustHour, avgCookiesCust
     return dailyCookies;
   };
   this.makeUL = function() {
-    this.totalCookiesDay();
+    this.totalCookiesDay(); 
+     // connect the list to the HTML; this is where your list will appear
+    var awesomeList = document.getElementById(this.domName);
+    
     for(var i = 0; i < this.cookiesByHourList.length; i++) {
-        // connect the list to the HTML; this is where your list will appear
-        var awesomeList = document.getElementById(this.domName);
-        // Create the list item:
+         // Create the list item:
         var item = document.createElement('li');
         // Set its contents:
-        item.appendChild(document.createTextNode(this.cookiesByHourList[i]));
+        item.appendChild(document.createTextNode((i+10) + ':00 ' + this.cookiesByHourList[i] + ' cookies'));
         // Add it to the list:
         awesomeList.appendChild(item);
-    // Finally, return the constructed list:
-    }
-    return awesomeList;
+   }
+        var item = document.createElement('li');
+
+        item.appendChild(document.createTextNode('Total: ' + this.totalCookiesDay() + ' cookies'));
+
+        awesomeList.appendChild(item);
+
+        return awesomeList;
   };
 };
-  
+
 var pikePlace = new CookieStand('Pike Place Market', 17, 88, 5.2, 'pi');
 var seaTac = new CookieStand('SeaTac Airport', 6, 44, 1.2, 'se');
 var southcenter = new CookieStand('Southcenter Mall', 11, 38, 1.9, 'so');

@@ -1,0 +1,29 @@
+var CookieStand = function (parameters...) {
+  properties
+  properties
+  properties
+  ...
+
+  method to generate random # of customers {
+
+  };
+
+  method to generate # of cookies per day {
+
+  }  
+
+  method to generate # of cookies per day {
+
+  }
+
+  method [makeUL()] that puts lists of cookie #s into DOM {
+    codes and codes
+  };
+
+  this.makeUL();
+
+};
+
+var instance - new CookieStand(arguments...)
+
+(OTHERS USE THIS) instances.method();

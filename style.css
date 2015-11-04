@@ -1,13 +1,13 @@
 
 body {
   font-family: Times, serif;
-  color: blue;
+  color: darkBrown;
   background-color: white;}
 
 h1, h2 {
   font-family: Arial, sans-serif;
-  color: green;
-  background-color: gray;}
+  color: orange;
+  background-color: brown;}
 
 h3 {
   font-family: Oswald, sans-serif;
@@ -18,3 +18,4 @@ div {
   height: 325px;
   width: 400px;
   background-color: yellow;}
+

@@ -2,20 +2,27 @@
 body {
   font-family: Times, serif;
   color: darkBrown;
-  background-color: white;}
+  background-color: pink;
+  font-size: 24px;}
 
 h1, h2 {
   font-family: Arial, sans-serif;
   color: orange;
-  background-color: brown;}
+  background-color: brown;
+  text-align: center;}
 
 h3 {
   font-family: Oswald, sans-serif;
-  color: red;
+  color: silver;
   background-color: blue;}
 
 div {
-  height: 325px;
+  height: 350px;
   width: 400px;
-  background-color: yellow;}
+  background-color: green;}
+
+p {
+  text-align: center;
+}
+
 
